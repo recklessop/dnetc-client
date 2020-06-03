@@ -14,3 +14,7 @@ Available options include:
 amd64
 arm64
 armel
+
+## Running with Kubernetes
+kubectl apply -f deployment.yaml
+
