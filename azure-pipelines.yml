@@ -18,7 +18,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      name: 'AMD64'
+      name: 'ARM64'
     steps:
     - task: Docker@2
       displayName: Build an image
